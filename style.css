@@ -1,0 +1,183 @@
+body{
+	background-image: url('images/bg_main.png');
+	margin: 0;
+	padding: 0;
+	color: #E0D0D0;
+	font: 13px/1.4 Helvetica, sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 48px;
+	background-image: url('images/bg_top.png');
+	background-repeat: repeat-x;
+	margin: 0 auto;
+}
+
+.headercontainer{
+	width: 1000px;
+    margin: 0 auto;
+}
+
+.logo{
+	float: left;
+    width: 260px;
+    height: 48px;
+    display: block;
+    overflow: hidden;
+    text-indent: -10000px;
+}
+
+.menu{
+	list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 0 0;
+    width: 415px;
+    margin-top: 0;
+    float: left;
+	margin-left: 10px;
+}
+
+
+.menu li{
+	float: left;
+    margin-left: 10px;
+}
+
+.user{
+	width: 300px;
+    text-align: right;
+    padding: 14px 0 0;
+    float: left;
+}
+
+.main{
+	width: 1000px;
+    margin: 0 auto;
+    margin-top: 1em;
+    position: relative;
+    padding: 20px 0 40px;
+}
+
+.main .left{
+	width: 640px;
+    float: left;
+}
+
+.main .right{
+	width: 300px;
+    margin-left: 40px;
+    float: left;
+	text-align: center;
+}
+
+.main .right .animals{
+   margin-bottom: 1.5em;
+}
+
+.btnbuy{
+	margin-top: 1.5em;
+}
+
+p{
+	margin-top: 1.5em;
+}
+
+.small{
+	font-size: 11px;
+}
+
+a{
+	color: #aaf;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #aaf;
+	text-decoration: none;
+}
+
+.video{
+	display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+	margin-top: 3em;
+}
+
+.centralized-section {
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+}
+
+.centralized-section a{
+	color: #fff;
+    text-decoration: none;
+	font-size: 18px;
+    color: #fff;
+    background-repeat: no-repeat;
+	font-weight: bold;
+	padding-left: 5px;
+	position: relative;
+	bottom: 11px;
+}
+
+.centralized-section p{
+	font-size: 13px;
+}
+
+.centralized-section p a{
+	font-size: 13px;
+	font-weight: lighter;
+	position: relative;
+	bottom: 0px;
+	padding-left: 0px;
+	color: #aaf;
+	text-decoration: none;
+}
+
+.centralized-section p a:visited{
+	font-size: 13px;
+	font-weight: lighter;
+	position: relative;
+	bottom: 0px;
+	padding-left: 0px;
+	color: #aaf;
+	text-decoration: none;
+}
+
+.centralized-section .links a{
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	bottom: 0px;
+	padding-left: 0px;
+	color: #aaf;
+	text-decoration: none;
+}
+
+.centralized-section .timestamp{
+	font-size: 10px;
+    color: #b1a5a5;
+	margin-bottom: 2em;
+}
+
+.twittertext p{
+	margin-bottom: 0px;
+
+}
+
+footer{
+    position: relative;
+    margin-top: 200px;
+    height: 26px;
+    text-align: center;
+    color: #444;
+    padding-top: 14px;
+    clear: both;
+}
+
